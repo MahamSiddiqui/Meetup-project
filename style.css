@@ -97,7 +97,7 @@ header ul{
      align-items: center; 
      display: flex;
      justify-content: space-between;
-     background-image: url(bg.jpg);
+     background-image: url("New folder\bg.jpg");
      background-repeat: no-repeat;
      background-size: 100%;
     
