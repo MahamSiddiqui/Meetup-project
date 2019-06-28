@@ -97,7 +97,7 @@ header ul{
      align-items: center; 
      display: flex;
      justify-content: space-between;
-     background-image: url("bg.jpg");
+     background-image: url("New folder/bg.jpg");
      background-repeat: no-repeat;
      background-size: 100%;
     
@@ -113,9 +113,43 @@ header ul{
     color: #fff;
     
 }
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    font-family: 'Barriecito', cursive;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 8PX;
+    font-weight: 100;
+    background: none;
+    background: rgba(150, 150, 150, 0.5);
+    border: none;
+    margin:30px;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    
+}
+.btn:hover,
+.btn:focus,
+.btn:active{
+    
 
-     
- 
+    border-radius: 50px;
+    font-weight: 600 !important;
+    letter-spacing: 3px;
+    background-color: none;
+    transition: all 0.3s ease-in;
+
+}
+.btn:focus{
+    outline: none;
+}
 #content{
     padding-top:15px;
     background-image: linear-gradient(180deg, #000000 30%, #626a7e, #000000);
@@ -139,7 +173,7 @@ h3{
     color:#fff;
 }
 #mid-sec{
-    background-image: url("bg.jpg");
+    background-image: url("New folder\bg.jpg");
     background-size: 100%;
     padding-top:0%;
     height: 10%;
@@ -186,7 +220,7 @@ div h3 a{
   
 
 .hexagon-box{
-  
+    
     position: relative;
     width: 500px;
     height: 288.68px;
@@ -199,6 +233,7 @@ div h3 a{
     position: absolute;
     border-left: 250px solid transparent;
     border-right: 250px solid transparent;
+
 }
 .hexagon-box::before{
     bottom: 100%;
