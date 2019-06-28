@@ -1,0 +1,214 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:0%;
+    padding: 0%;
+  
+   
+}
+
+
+header{
+    padding-top:0%; 
+    display:flex ;
+    justify-content:space-between;
+    padding: 10px;
+    margin-top: 0%; 
+    height: 10%;
+    background-color: #000000;
+    color: #fff;
+}
+header li{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    
+}
+header li i{
+    font-size: 30px;
+}
+#facebook-btn:hover{
+color: #4267b2;
+}
+#insta-btn:hover{
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+#twitter-btn:hover{
+color: #4498dc;
+}
+#linkedin-btn:hover{
+color: #4498dc;
+}
+header a{
+    padding: 0 1em;
+    text-decoration: none;
+
+}
+header input{
+border-radius: 5px;
+padding-right: 20px;
+height:30px;
+border: none;
+
+
+ 
+
+}
+header div i{
+    font-size: 15px;
+    color: red;
+}
+.placeicon input[type=text]{
+padding-left: 40px;
+border:none;
+
+
+
+}
+.placeicon{
+    position: relative;
+    padding-top: 15px;
+}
+.placeicon i{
+position: absolute;
+left: 85px;
+top:0;
+padding:20px 0 0 70px;
+
+}
+ .logo{
+    height: 70px;
+    padding-left:10px;
+   
+}
+
+}
+header ul{
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+    align-items: center;
+    padding: 10px; 
+    
+}
+ #main-item{
+  
+      padding-top: 10px;
+     padding-bottom: 10px;
+     align-items: center; 
+     display: flex;
+     justify-content: space-between;
+     background-image: url(bg.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+    
+    
+ }
+#main-item p{
+    display:flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Barriecito', cursive;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    color: #fff;
+    
+}
+
+     
+ 
+#content{
+    padding-top:15px;
+    background-image: linear-gradient(180deg, #000000 30%, #626a7e, #000000);
+    padding-bottom: 15px;
+    
+} 
+#content p{
+    text-align: center;
+    font-size:20px;
+    color: #fff;
+    
+
+}
+.circle-info{
+    text-align: center;
+    color: #fff;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    color:#fff;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+}
+#events{
+    height: 20em;
+    background-image: linear-gradient(180deg, #000000 30%, #626a7e, #000000);
+    padding-top: 80px;
+    text-align: center;
+    border-top: 1px solid #626a7e;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    
+    
+}
+#events figcaption{
+    transition: transform .2s;
+}
+    
+#events figcaption:hover{
+transform: scale(1.5);
+
+}
+ a.details {
+    text-decoration: none;
+    color:#83D8FF;
+    
+}
+div h3 a{
+    text-decoration: none;
+    color:#83D8FF;
+    
+}
+
+  
+
+.hexagon-box{
+  
+    position: relative;
+    width: 500px;
+    height: 288.68px;
+    background-image: linear-gradient(180deg, #000000 30%, #626a7e, #000000);
+    margin: 144px auto;
+}
+.hexagon-box::before,
+.hexagon-box::after{
+    content: "";
+    position: absolute;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+}
+.hexagon-box::before{
+    bottom: 100%;
+    border-bottom: 144.34px solid #000000 ;
+}
+.hexagon-box::after{
+    top: 100%;
+    border-top: 144.34px solid #000000 ;
+   
+ 
+    
+}
+footer{
+    border-top: 1px solid #626a7e;
+   text-align: center;
+    padding: 10px;
+    margin: 0px;
+    height: 10%;
+    background-color: #000000;
+    color: #fff;
+
+}
