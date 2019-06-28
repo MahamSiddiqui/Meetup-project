@@ -23,6 +23,9 @@ header li{
     color: #fff;
     
 }
+header ul li:hover{
+    font-weight: bold;
+}
 header li i{
     font-size: 30px;
 }
