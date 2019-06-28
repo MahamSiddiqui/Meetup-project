@@ -173,7 +173,7 @@ h3{
     color:#fff;
 }
 #mid-sec{
-    background-image: url("New folder\bg.jpg");
+    background-image: url("New folder/bg.jpg");
     background-size: 100%;
     padding-top:0%;
     height: 10%;
